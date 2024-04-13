@@ -3,11 +3,15 @@
     background-color: var(--bg-dark);
 }
 
-.ph {
+.ph-linkedin-logo,
+.ph-github-logo,
+.ph-instagram-logo {
     color: var(--color-text-secundary);
     font-size: 2rem;
 }
 
-.ph:hover {
+.ph-linkedin-logo:hover,
+.ph-github-logo:hover,
+.ph-instagram-logo:hover {
     color: var(--bg-houver-social);
 }
