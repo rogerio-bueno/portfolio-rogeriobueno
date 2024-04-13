@@ -1,0 +1,13 @@
+.footer-section {
+    color: var(--color-text-secundary);
+    background-color: var(--bg-dark);
+}
+
+.ph {
+    color: var(--color-text-secundary);
+    font-size: 2rem;
+}
+
+.ph:hover {
+    color: var(--bg-houver-social);
+}
