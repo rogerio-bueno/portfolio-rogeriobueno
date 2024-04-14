@@ -5,14 +5,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contato</title>
-    <link rel="stylesheet" href="./assets/css/colors.css">
-    <link rel="stylesheet" href="./assets/css/styles.min.css">
-    <link rel="stylesheet" href="./assets/css/navbar.css">
-    <link rel="stylesheet" href="./assets/css/footer.css">
-
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <link rel="shortcut icon" href="./assets/image/code.svg" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/css/colors.css">
+    <link rel="stylesheet" href="./assets/css/styles.min.css">
+    <link rel="stylesheet" href="./assets/css/navbar.css">
+    <link rel="stylesheet" href="./assets/css/contact-page.css">
+    <link rel="stylesheet" href="./assets/css/footer.css">
 
     <!-- Phosphoricons -->
     <script src="https://unpkg.com/@phosphor-icons/web"></script>
@@ -60,6 +62,53 @@
         </nav>
     </header>
 
+    <main>
+        <section class="container my-5">
+            <div class="row">
+                <h3 class="col-sm-6 h5 my-5">Estou buscando oportunidades de emprego em período integral. No entanto, se você tiver outra oferta como freelance ou dúvida, não hesite em me contatar.</h3>
+
+                <div class="col-sm-6 d-flex justify-content-center justify-sm-content-end my-5">
+                    <div class="d-flex">
+                        <div class="border rounded p-5">
+                            <h5>Me mande uma mensagem aqui</h5>
+                            <!-- Botão para acionar modal contato -->
+                            <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                Fala comigo
+                                <i class="ph ph-arrow-up-right"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container my-5">
+            <h2 class="h3">Redes</h2>
+
+            <ul class="nav my-5">
+                <li class="nav-item">
+                    <a class="nav-link nav-link-modified d-flex align-items-center" href="https://www.linkedin.com/in/rogeriobuenos"
+                        target="_blank" rel="noopener noreferrer">
+                        <i class="ph ph-linkedin-logo ph-modified"></i>
+                        rogeriobuenos
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link nav-link-modified d-flex align-items-center" href="https://github.com/rogerio-bueno"
+                        target="_blank" rel="noopener noreferrer">
+                        <i class="ph ph-github-logo ph-modified"></i>
+                        rogerio-bueno
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link nav-link-modified d-flex align-items-center" href="https://www.instagram.com/roger.iodev/"
+                        target="_blank" rel="noopener noreferrer">
+                        <i class="ph ph-instagram-logo ph-modified"></i>
+                        roger.iodev
+                    </a>
+                </li>
+            </ul>
+        </section>
+    </main>
 
     <footer class="container">
         <section class="row border rounded-3 p-5 footer-section">
@@ -99,5 +148,21 @@
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
 </body>
-
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Deixe uma mensagem</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <iframe
+            src="https://docs.google.com/forms/d/e/1FAIpQLScNqhnqy-2NuZFfBUU9KCfBbYwS2AdFGM0BSptkKvvnbypcoA/viewform?embedded=true"
+            class="container-fluid" height="932" frameborder="0" marginheight="0"
+            marginwidth="0">Carregando…</iframe>
+        </div>
+      </div>
+    </div>
+  </div>
 </html>
