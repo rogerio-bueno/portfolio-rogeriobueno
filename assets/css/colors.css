@@ -3,9 +3,10 @@
     --bg-dark: #141414;
 
     --bg-border: #D9D9D9;
-    --bg-button: #D9D9D9;
-
-    --bg-houver-social: #838383;
+    --bg-btn-primary: #D9D9D9;
+    
+    --bg-btn-hover: #838383;
+    --bg-social-hover: #838383;
 
     --color-text-primary: #000;
     --color-text-secundary: #FFF;
