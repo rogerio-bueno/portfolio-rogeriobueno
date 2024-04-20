@@ -1,0 +1,9 @@
+.card {
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: transform .5s ease; 
+}
+
+.card:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
