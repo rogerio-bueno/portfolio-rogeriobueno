@@ -2,16 +2,3 @@
     color: var(--color-text-secundary);
     background-color: var(--bg-dark);
 }
-
-.ph-linkedin-logo,
-.ph-github-logo,
-.ph-instagram-logo {
-    color: var(--color-text-secundary);
-    font-size: 2rem;
-}
-
-.ph-linkedin-logo:hover,
-.ph-github-logo:hover,
-.ph-instagram-logo:hover {
-    color: var(--bg-social-hover);
-}
